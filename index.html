@@ -30,27 +30,50 @@
   </head>
 
   <body>
-    <nav class="navi">
-      <div class="row">
-        <div class="col-md">
-          <div class="logo"></div>
-          <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="pages/tutorials.html">Tutorials</a>
-            <a href="pages/learning.html">Learning</a>
-            <a href="pages/forum.html">Forum</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"
+          ><img src="..." class="d-inline-block align-top" alt=""
+        /></a>
 
-    <header>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/tutorials.html">Tutorials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/learning.html">Learning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/forum.html">Forum</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <header class="index-head">
       <div class="overlay"></div>
       <video
         playsinline="playsinline"
         autoplay="autoplay"
         muted="muted"
         loop="loop"
+        preload="auto"
       >
         <source src="content/vid/head_coffee.mp4" type="video/mp4" />
       </video>
@@ -58,14 +81,71 @@
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-white">
             <h1 class="display-3 titel">Minecraft guide</h1>
-            <p class="lead mb-0">A Minecraft Tutorial Website</p>
+            <p class="lead mb-0">
+              A website for learning the world around Minecraft
+            </p>
           </div>
         </div>
       </div>
     </header>
 
-    <section></section>
+    <section>
+      <h2 id="news">Minecraft news</h2>
+      <div class="row align-items-sm-center minecraft-update">
+        
+          <div class="col-md minecraft-pics">
+            <a href="https://www.minecraftforum.net/news/60771-java-edition-snapshot-20w18a" target="blank" ><img
+              src="content/img/2020-05-06_11.48.09.png"
+              class="img-fluid"
+              alt="Minecraft-billeder"
+            />
+            <div class="center-text">
+              <h3>Java Edition: Snapshot 20W18A</h3>
+              <p>
+                Redstoners! This is a snapshot for you to pay attention to!  Check out the new look and ways it interacts with the Minecraft world.
+              </p></a>
+            </div>
+          </div>
+        
+        <div class="col-md minecraft-pics">
+          <a href="https://www.minecraftforum.net/news/60770-beta-bedrock-1-16-0-58-xbox-one-windows-10-android" target="blank"><img
+            src="content/img/2020-05-06_11.51.15.png"
+            class="img-fluid"
+            alt="Minecraft-billeder"
+          />
+          <div class="center-text">
+            <h3>BETA: Bedrock 1.16.0.58</h3>
+            <p>
+              Another round of Bug Fixes for those playing Minecraft: BETA. Do you see a bug you've encountered fixed?
+            </p></a>
+          </div>
+        </div>
+
+        <div class="col-md minecraft-pics">
+          <a href="https://www.minecraftforum.net/news/60767-minecraft-with-rtx-beta-is-now-live" target="blank"><img
+            src="content/img/2020-05-06_11.48.09.png"
+            class="img-fluid"
+            alt="Minecraft-billeder"
+          />
+          <div class="center-text">
+            <h3>Minecraft RTX Beta is now live!</h3>
+            <p>
+              The RTX beta is now live, with pretty lights, shadows, and reflections for Minecraft worlds!
+            </p></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section></section>
+
+    <footer>
+      <div class="row">
+        <img src="content/img/Footer.png" alt="footer" />
+        <div class="col-md">
+          <!-- Newsletter?-->
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

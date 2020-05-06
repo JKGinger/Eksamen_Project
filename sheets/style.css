@@ -2,7 +2,60 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+body {
+  overflow-x: hidden;
+}
+
+/* Menu navigation*/
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+}
+
+.navbar-brand img {
+  height: 50px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+#nav-bar a:hover {
+  color: rgb(145, 64, 27);
+}
+
+#nav-bar a:active {
+  color: green;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+}
+footer img {
+  width: 100%;
+}
+
+/* Forside */
+
+.index-head {
   position: relative;
   background-color: black;
   height: 55vh;
@@ -11,7 +64,7 @@ header {
   overflow: hidden;
 }
 
-header video {
+.index-head video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,12 +79,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.index-head .container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+.index-head .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,27 +99,80 @@ header .overlay {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.navi {
-  text-align: right;
-  margin-right: 50px;
-  height: 60px;
-  padding-top: 15px;
-}
-.menu a {
-  padding: 0px 30px;
-  color: black;
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 .titel {
   font-size: 100px;
   margin-bottom: 30px;
 }
 
-.menu a:hover {
-  text-decoration: none;
-  color: rgb(145, 64, 27);
+#news {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
 }
-.menu a:active {
-  color: green;
+.minecraft-update {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+.minecraft-pics {
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.minecraft-pics img {
+  background-color: black;
+  opacity: 0.65;
+  z-index: 1;
+}
+
+.minecraft-pics a {
+  text-decoration: none;
+  color: black;
+}
+
+.minecraft-pics:hover {
+  transform: scale(1.05);
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+}
+
+.center-text p {
+  font-size: 15px;
+  padding: 0 5%;
+}
+
+/*Tutorials*/
+
+.overskift {
+  text-align: center;
+  margin: 50px 0px;
+  font-size: 60px;
+}
+
+.container_vid {
+  display: flex;
+  padding: 10px 20px;
+}
+.tutvideo {
+  justify-content: center;
+}
+
+.tutvideo iframe {
+  width: 520;
+  height: 315;
+}
+
+.videoforklaring {
+  width: 40%;
+  margin-right: 3%;
+  margin-left: 3%;
 }
