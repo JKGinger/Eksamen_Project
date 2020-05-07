@@ -4,6 +4,7 @@ html {
 
 body {
   overflow-x: hidden;
+  background-color: #b3e2ff;
 }
 
 /* Menu navigation*/
@@ -16,11 +17,18 @@ body {
 
 .navbar {
   background-color: white;
-  border-bottom: 1px solid black;
+  /*border-bottom: 1px solid black;*/
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: x-large;
 }
 
+.logo {
+  color: black;
+  font-weight: 600;
+}
+.logo:hover {
+  text-decoration: none;
+}
 .navbar-brand img {
   height: 50px;
   padding-left: 20px;
@@ -125,6 +133,7 @@ footer img {
   background-color: black;
   opacity: 0.65;
   z-index: 1;
+  border: 12px solid white;
 }
 
 .minecraft-pics a {
@@ -141,13 +150,51 @@ footer img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  padding-left: 30px;
+  padding-right: 30px;
   width: 100%;
 }
 
-.center-text p {
-  font-size: 15px;
-  padding: 0 5%;
+@media (min-width: 400px) {
+  .center-text p {
+    /* Lille size for undertekst*/
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .center-text p {
+    /* Mellem size for undertekst*/
+    font-size: 0px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .center-text p {
+    /* Max size for undertekst*/
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 400px) {
+  .center-text h3 {
+    /* Lille size for overskrift */
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .center-text h3 {
+    /* Mellem size for overskrift */
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .center-text h3 {
+    /* Max size for overskrift */
+    font-size: 25px;
+  }
 }
 
 /*Tutorials*/
@@ -158,21 +205,37 @@ footer img {
   font-size: 60px;
 }
 
-.container_vid {
-  display: flex;
-  padding: 10px 20px;
-}
-.tutvideo {
-  justify-content: center;
-}
+/*.tutvideo {
+  text-align: center;
+}*/
 
 .tutvideo iframe {
-  width: 520;
-  height: 315;
+  width: 100%;
 }
 
 .videoforklaring {
-  width: 40%;
-  margin-right: 3%;
-  margin-left: 3%;
+  /*margin-right: 2%;
+  margin-left: 2%;
+  width: 90%;*/
+  background-color: white;
+}
+/*.vid2 {
+  margin-top: 100px;
+}*/
+
+/*.banner {
+  padding: 1%;
+  margin: 1%;
+}/*
+
+/*Learning*/
+
+.learn {
+  margin: 0 7%;
+}
+.punkt h2 {
+  text-align: center;
+}
+.learn h2 {
+  text-align: center;
 }
