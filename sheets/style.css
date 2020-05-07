@@ -205,28 +205,18 @@ footer img {
   font-size: 60px;
 }
 
-/*.tutvideo {
+.mellemskrift {
   text-align: center;
-}*/
+  margin-bottom: 30px;
+}
 
 .tutvideo iframe {
   width: 100%;
 }
 
 .videoforklaring {
-  /*margin-right: 2%;
-  margin-left: 2%;
-  width: 90%;*/
   background-color: white;
 }
-/*.vid2 {
-  margin-top: 100px;
-}*/
-
-/*.banner {
-  padding: 1%;
-  margin: 1%;
-}/*
 
 /*Learning*/
 
