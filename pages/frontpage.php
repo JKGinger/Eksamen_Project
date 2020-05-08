@@ -8,7 +8,11 @@
         loop="loop"
         preload="auto"
       >
+<<<<<<< HEAD
         <source src="/content/vid/minecraft_vid.mp4" type="video/mp4" />
+=======
+        <source src="content/vid/minecraft_vid.mp4" type="video/mp4" />
+>>>>>>> 54cd689a0635fe2624cd7b8c0e551e72e7a2c8d5
       </video>
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
