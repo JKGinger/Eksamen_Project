@@ -29,7 +29,6 @@
     <link href="sheets/jquery.js" />
     <link rel="stylesheet" href="main.css">
   </head>
-
   <body>
     <section id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light">
