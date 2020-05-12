@@ -27,8 +27,21 @@
       crossorigin="anonymous"
     ></script>
     <link href="sheets/jquery.js" />
-    <link rel="stylesheet" href="main.css">
   </head>
+
+  <?php
+      if(isset($_GET['page'])){
+          $page = $_GET['page'];
+          if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum'){
+              $page = 'frontpage';
+          }
+      }else{
+          $page = 'frontpage';
+      }
+      define('ROOT', $_SERVER['DOCUMENT_ROOT']);
+      ini_set('include_path', ROOT . '/pages/');
+  ?>
+
   <body>
     <section id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -50,16 +63,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item<?php
+            if($page == 'frontpage'){
+              echo " active";
+            }?>">
               <a class="nav-link" href="index.php">Home</a>
             </li>
-            <li class="nav-item">
+
+            <li class="nav-item<?php
+            if($page == 'tutorials'){
+              echo " active";
+            }?>">
               <a class="nav-link" href="index.php?page=tutorials">Tutorials</a>
             </li>
-            <li class="nav-item">
+
+            <li class="nav-item<?php
+            if($page == 'learning'){
+              echo " active";
+            }?>">
               <a class="nav-link" href="index.php?page=learning">Learning</a>
             </li>
-            <li class="nav-item">
+
+            <li class="nav-item<?php
+            if($page == 'forum'){
+              echo " active";
+            }?>">
               <a class="nav-link" href="index.php?page=forum">Forum</a>
             </li>
           </ul>
@@ -67,25 +95,12 @@
       </nav>
     </section>
     <?php
-      if(isset($_GET['page'])){
-          $page = $_GET['page'];
-          if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum'){
-              $page = 'frontpage';
-          }
-      }else{
-          $page = 'frontpage';
-      }
-      define('ROOT', $_SERVER['DOCUMENT_ROOT']);
-      ini_set('include_path', ROOT . '/pages/');
       include($page . '.php');
     ?>
+
+
     <footer>
-      <div class="row">
-        <img src="content/img/Footer.png" alt="footer" />
-        <div class="col-md">
-          <!-- Newsletter?-->
-        </div>
-      </div>
+      efwijoiejfwo
     </footer>
   </body>
 </html>
