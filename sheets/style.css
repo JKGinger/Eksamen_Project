@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: var(---background-color-blue);
+  background-color: #b3e2ff;
 }
 
 /* Menu navigation*/
@@ -142,7 +142,7 @@ footer {
 
 .minecraft-pics a {
   text-decoration: none;
-  color: var(--text-color);
+  color: black;
 }
 
 .minecraft-pics:hover {
@@ -220,6 +220,27 @@ footer {
 
 .videoforklaring {
   background-color: white;
+}
+.dyr {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.animals img {
+  width: 200px;
+}
+.animals {
+  background-color: white;
+  padding: 0px 30px;
+}
+.gris p {
+  margin-top: 60px;
+}
+
+.mob {
+  padding-top: 20px;
 }
 
 /*Learning*/

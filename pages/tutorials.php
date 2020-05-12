@@ -108,3 +108,32 @@
     </p>
 </div>
 </div>
+
+<h2 class="overskift">Mob Guide</h2>
+<div class="dyr">
+
+<div class="ko animals mob">
+<img src="../content/img/Cow.png" alt="ko">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum consequuntur quibusdam ducimus ea autem aut laboriosam accusamus ratione, omnis temporibus delectus doloribus voluptates at, magni qui, unde eum rem.
+</p>
+</div>
+
+<div class="gris animals mob">
+<img src="../content/img/Pig.png" alt="gris">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum consequuntur quibusdam ducimus ea autem aut laboriosam accusamus ratione, omnis temporibus delectus doloribus voluptates at, magni qui, unde eum rem.
+</p>
+</div>
+
+
+<div class="sheep animals">
+<img src="../content/img/Sheep.gif" alt="sheep">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum consequuntur quibusdam ducimus ea autem aut laboriosam accusamus ratione, omnis temporibus delectus doloribus voluptates at, magni qui, unde eum rem.
+</p>
+</div>
+
+<div class="kylling animals mob">
+<img src="../content/img/Chicken.png" alt="kylling">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum consequuntur quibusdam ducimus ea autem aut laboriosam accusamus ratione, omnis temporibus delectus doloribus voluptates at, magni qui, unde eum rem.
+</p>
+</div>
+</div>
