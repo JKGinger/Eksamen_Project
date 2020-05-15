@@ -1,6 +1,6 @@
-
-    <h1 class="overskift">Learning</h1>
-
+<div class="backimgler">
+    <h1 class="overskift2">Learning</h1>
+</div>
     <div class="learn">
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
@@ -25,11 +25,14 @@
         bibendum sodales, augue velit cursus nunc,
       </p>
     </div>
-<div class="row">
-  <div class="col">
-<iframe src="" frameborder="0"></iframe>
-  </div>
+
+<div class="row justify-content-center">
+  <div class="d-flex banner_learning">
+    <embed src="http://mtrasmussen.dk/Minecraft_banner/index.html" style="width:960px; height: 613px";>
+    
 </div>
+</div>
+
     <div class="learn">
       <h2>Why?</h2>
       <p>

@@ -1,10 +1,9 @@
 
-    <header>
-      <h1 class="overskift">Tutorials</h1>
-      <h2 class="mellemskrift">Survival gamemode</h2>
+    <header class="backimgtut">
+      <h1 class="overskift2">Tutorials</h1>
     </header>
-
-    <div class="container_vid vid2">
+      <h2 class="mellemskrift">Survival gamemode</h2>
+      <div>
       <div class="row justify-content-center mb-3">
         <div class="col-lg-5 embed-responsive embed-responsive-16by9 p-3 mx-3">
             
@@ -21,7 +20,7 @@
       </div>
     
         <div class="col-lg-5 videoforklaring order-1 order-lg-12 p-3 mx-3">
-          <h2>Survive the mine</h2>
+          <h2>Survive the night</h2>
         <p>
           Lorem ipsum dolor sit amet, nec in, vel
           arcu etiam in leo, malesuada ligula. Dui dictumst montes pulvinar,
@@ -39,7 +38,7 @@
     </div>
 
 
-  <div class="container_vid vid2">
+  <div>
     <div class="row justify-content-center mb-3">
     
 
@@ -75,7 +74,7 @@
   </div>
 </div>
 
-<div class="container_vid vid2">
+<div">
   <div class="row justify-content-center mb-3">
     <div class="col-lg-5 embed-responsive embed-responsive-16by9 p-3 mx-3">
         

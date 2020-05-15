@@ -1,5 +1,13 @@
+* {
+  --main-font-family: futura-pt, sans-serif;
+  --main-font-weight: 400;
+  --main-font-style: book;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+  font-style: var(--main-font-style);
+}
+
 html {
-  font-family: Arial, Helvetica, sans-serif;
   overflow-y: scroll;
   --text-color: #3e3e3e;
   --background-color-white: #f2f2f2;
@@ -10,6 +18,7 @@ html {
 
 body {
   background-color: #b3e2ff;
+  overflow-x: hidden;
 }
 
 /* Menu navigation*/
@@ -22,8 +31,7 @@ body {
 
 .navbar {
   background-color: var(--background-color-white);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: x-large;
+  font-size: 25px;
 }
 
 .logo {
@@ -203,6 +211,13 @@ footer {
 
 /*Tutorials*/
 
+.backimgtut {
+  background-image: url('../content/img/diamond_header.png');
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .overskift {
   text-align: center;
   margin: 50px 0px;
@@ -234,6 +249,8 @@ footer {
 .animals {
   background-color: white;
   padding: 0px 30px;
+  margin-bottom: 100px;
+  padding-bottom: 20px;
 }
 .gris p {
   margin-top: 60px;
@@ -243,7 +260,29 @@ footer {
   padding-top: 20px;
 }
 
+@media (min-width: 400px) {
+  .dyr {
+    /* Lille size for dyr*/
+    display: block;
+  }
+  .animals img {
+  }
+}
+
+@media (min-width: 1000px) {
+  .dyr {
+    /* Max size for dyr*/
+    display: flex;
+  }
+}
+
 /*Learning*/
+.backimgler {
+  background-image: url('../content/img/brick_header.png');
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .learn {
   margin: 0 7%;
@@ -253,4 +292,20 @@ footer {
 }
 .learn h2 {
   text-align: center;
+}
+.banner_learning {
+}
+
+/*Forum*/
+
+.overskift2 {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 60px;
+}
+.backimg {
+  background-image: url('../content/img/grass_header.png');
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

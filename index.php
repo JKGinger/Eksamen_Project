@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minecraft Guide</title>
+    
+    <link rel="stylesheet" href="https://use.typekit.net/lkf8ipj.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -27,6 +29,9 @@
       crossorigin="anonymous"
     ></script>
     <link href="sheets/jquery.js" />
+
+
+
   </head>
 
   <?php
@@ -48,7 +53,7 @@
         <a class="navbar-brand" href="index.php"
           ><img src="content/img/minecraft_logo.png" class="d-inline-block align-top logo" alt=""
         /></a>
-        <a href="index.html" class="logo">Minecraft Guide</a>
+        <a href="index.php" class="logo">Minecraft Guide</a>
 
         <button
           class="navbar-toggler"
