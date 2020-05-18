@@ -1,8 +1,10 @@
 <div class="backimgler">
     <h1 class="overskift2">Learning</h1>
 </div>
-    <div class="learn">
-      <p>
+<div class="container justify-content-center text-center">
+
+  <div class="mt-2">
+    <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
         dis parturient montes, nascetur ridiculus mus. Donec quam felis,
@@ -23,18 +25,24 @@
         amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris
         sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget
         bibendum sodales, augue velit cursus nunc,
-      </p>
-    </div>
+    </p>
+  </div>
 
-<div class="row justify-content-center">
+<!--<div class="row justify-content-center">
   <div class="d-flex banner_learning">
     <embed src="http://mtrasmussen.dk/Minecraft_banner/index.html" style="width:960px; height: 613px";>
     
 </div>
-</div>
+</div>-->
+  <div class="row justify-content-center">
+    <div style="overflow: hidden;">
+      <iframe scrolling="no" src="http://mtrasmussen.dk/Minecraft_banner/index.html" style="border: 0px none; height: 615px; width: 960px;">
+      </iframe>
+    </div>
+  </div>
 
-    <div class="learn">
-      <h2>Why?</h2>
+  <div class="learn mt-2">
+    <h2>Why?</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
@@ -57,4 +65,5 @@
         sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget
         bibendum sodales, augue velit cursus nunc,
       </p>
-    </div>
+  </div>
+</div>

@@ -1,5 +1,9 @@
-<div class="backimg">
+<!--<div class="backimg">
 <h1 class="overskift2">Forum</h1>
+</div>-->
+<div class="img-container">
+    <img src="../content/img/grass_header.png" alt="grass" style="width:100%; min-width:680px;">
+    <div class="centered-text"><h1 class="overskift2">Forum</h1></div>
 </div>
 
 <div class="learn">
