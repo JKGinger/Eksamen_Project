@@ -1,9 +1,9 @@
-<div class="backimgler">
-    <h1 class="overskift2">Learning</h1>
-</div>
-<div class="container justify-content-center text-center">
 
-  <div class="mt-2">
+    <h1 class="overskift2">Learning</h1>
+
+<div>
+
+  <div class="learn mt-2">
     <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
@@ -36,7 +36,7 @@
 </div>-->
   <div class="row justify-content-center">
     <div style="overflow: hidden;">
-      <iframe scrolling="no" src="http://mtrasmussen.dk/Minecraft_banner/index.html" style="border: 0px none; height: 615px; width: 960px;">
+      <iframe scrolling="no" src="http://mtrasmussen.dk/Minecraft_banner/index.html" style="border: 2px solid black; height: 615px; width: 960px;">
       </iframe>
     </div>
   </div>

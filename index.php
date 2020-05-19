@@ -13,6 +13,9 @@
       crossorigin="anonymous"
     />
     <link href="sheets/style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
@@ -28,7 +31,10 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    <link href="sheets/jquery.js" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
+    </script>
+    <script src="sheets/jquery.js"></script>
 
 
 
@@ -103,9 +109,25 @@
       include($page . '.php');
     ?>
 
-
-    <footer>
-    
-    </footer>
+   <section class="newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="content">
+                        <form>
+                            <h2>Signup to our newsletter</h2>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email" id="email">
+                                <button class="btn btn-lg" type="submit" id='validate'>Sign up</button>
+                            </div>
+                            <h4 id='result'></h4>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <footer>
+  </footer>
   </body>
 </html>

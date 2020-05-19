@@ -5,6 +5,7 @@
   font-family: var(--main-font-family);
   font-weight: var(--main-font-weight);
   font-style: var(--main-font-style);
+  max-width: 100%;
 }
 
 html {
@@ -63,14 +64,57 @@ body {
   color: var(--color-green);
 }
 
-/* Footer */
+/* Footer og signup */
 
 footer {
-  background-image: url('../content/img/footer.png');
+  background-image: url('../content/img/Footer.png');
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+}
+
+.newsletter {
+  padding: 80px 0;
+  /*background: #fff;*/
+}
+
+.newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.newsletter .content h2 {
+  color: black;
+  margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+  background-color: #f2f2f2;
+}
+
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0px 0px 0px 0px;
+  background: #73b349;
+  color: #fff;
+  font-weight: 600;
+}
+
+#result img {
+  height: 50px;
+  margin-top: 10px;
 }
 
 /* Forside */
@@ -110,7 +154,7 @@ footer {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index: 1;
 
   background-attachment: fixed;
@@ -210,13 +254,6 @@ footer {
 
 /*Tutorials*/
 
-.backimgtut {
-  background-image: url('../content/img/diamond_header.png');
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .overskift {
   text-align: center;
   margin: 50px 0px;
@@ -235,6 +272,13 @@ footer {
 .videoforklaring {
   background-color: white;
 }
+.videoforklaring p {
+  font-size: 20px;
+}
+
+.videoforklaring h2 {
+  font-size: 40px;
+}
 .dyr {
   margin-left: 7%;
   margin-right: 7%;
@@ -250,6 +294,10 @@ footer {
   padding: 0px 30px;
   margin-bottom: 100px;
   padding-bottom: 20px;
+}
+
+.animals p {
+  font-size: 20px;
 }
 .gris p {
   margin-top: 60px;
@@ -276,37 +324,23 @@ footer {
 }
 
 /*Learning*/
-.backimgler {
-  background-image: url('../content/img/brick_header.png');
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/*.learn {
-  margin: 0 7%;
-}*/
-.punkt h2 {
-  text-align: center;
+.learn p {
+  font-size: 25px;
+  text-align: left;
+  margin: 0 4%;
+  margin-bottom: 2%;
 }
 .learn h2 {
   text-align: center;
+  font-size: 50px;
+  margin: 2% 0;
 }
-.banner_learning {
-}
-
 /*Forum*/
 
 .overskift2 {
   text-align: center;
   padding: 50px 0px;
   font-size: 60px;
-}
-.backimg {
-  background: url('../content/img/grass_header.png');
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .img-container {
