@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159283934-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159283934-1');
+</script>
+
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minecraft Guide</title>
-    
+    <meta name="description" content="A Minecraft Guide, tutorial and learning website for helping beginners and teaching adults with the ways of Minecraft">
+    <title>Minecraft Guide, tutorial and learning</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/content/img/minecraft_logo.png">
     <link rel="stylesheet" href="https://use.typekit.net/lkf8ipj.css">
     <link
       rel="stylesheet"
@@ -57,7 +69,7 @@
     <section id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.php"
-          ><img src="content/img/minecraft_logo.png" class="d-inline-block align-top logo" alt=""
+          ><img src="content/img/minecraft_logo.png" class="d-inline-block align-top logo" alt="Logo"
         /></a>
         <a href="index.php" class="logo">Minecraft Guide</a>
 
