@@ -53,16 +53,20 @@
   </head>
 
   <?php
-      if(isset($_GET['page'])){
-          $page = $_GET['page'];
-          if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum'){
-              $page = 'frontpage';
-          }
-      }else{
-          $page = 'frontpage';
-      }
       define('ROOT', $_SERVER['DOCUMENT_ROOT']);
       ini_set('include_path', ROOT . '/pages/');
+      if(isset($_GET['page'])){
+          $page = $_GET['page'];
+          if(preg_match('/^[a-z0-9\-]+$/', $page)){
+            if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum'){
+              $page = 'frontpage';
+            }
+          }else{
+            $page = 'frontpage';
+        }
+      }else{
+        $page = 'frontpage';
+      }
   ?>
 
   <body>
@@ -118,7 +122,7 @@
       </nav>
     </section>
     <?php
-      include($page . '.php');
+        include($page . '.php');
     ?>
 
    <section class="newsletter">
