@@ -10,6 +10,7 @@
 
   gtag('config', 'UA-159283934-1');
 </script>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 
     <meta charset="UTF-8" />
@@ -47,22 +48,28 @@
         integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
     </script>
     <script src="sheets/jquery.js"></script>
-
+    <meta property="fb:admins" content="100001057994780"/>
 
 
   </head>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=263273421455796&autoLogAppEvents=1"></script>
 
   <?php
-      if(isset($_GET['page'])){
-          $page = $_GET['page'];
-          if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum'){
-              $page = 'frontpage';
-          }
-      }else{
-          $page = 'frontpage';
-      }
       define('ROOT', $_SERVER['DOCUMENT_ROOT']);
       ini_set('include_path', ROOT . '/pages/');
+      if(isset($_GET['page'])){
+          $page = $_GET['page'];
+          if(preg_match('/^[a-z0-9\-]+$/', $page)){
+            if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum' && $page !== 'forum1' ){
+              $page = 'frontpage';
+            }
+          }else{
+            $page = 'frontpage';
+        }
+      }else{
+        $page = 'frontpage';
+      }
   ?>
 
   <body>
@@ -118,7 +125,7 @@
       </nav>
     </section>
     <?php
-      include($page . '.php');
+        include($page . '.php');
     ?>
 
    <section class="newsletter">
