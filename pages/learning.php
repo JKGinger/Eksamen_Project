@@ -8,9 +8,7 @@
   Gaming has become a concern for parents in the past few years and there are worries children might become addicted, with negative effects on their socialisation. This has led some parents to think of ways to reduce gaming, including rationing the time children spend online.
 It’s important to remember though, that not all the research into children playing video games paints a bleak picture. In fact, there is a growing body of research that suggests such worries might be unfounded and that gaming could be an incredibly useful educational tool which might actually make children more sociable, not less.
 In the same way that many schools use other forms of technology to get students more excited about learning – such as interactive whiteboards and tablets – both of which seem popular with students, video games might also offer similar benefits.
-
     </p>
-
   </div>
 
 <!--<div class="row justify-content-center">
@@ -19,6 +17,7 @@ In the same way that many schools use other forms of technology to get students 
     
 </div>
 </div>-->
+
   <div class="row justify-content-center">
     <div style="overflow: hidden;">
       <iframe scrolling="no" src="http://mtrasmussen.dk/Minecraft_banner/index.html" style="border: 2px solid black; height: 615px; width: 960px;">

@@ -170,9 +170,10 @@ footer {
 
 #news {
   text-align: center;
-  font-size: 40px;
+
   margin-top: 50px;
 }
+
 .minecraft-update {
   margin-left: 30px;
   margin-right: 30px;
@@ -353,19 +354,6 @@ footer {
   font-size: 60px;
 }
 
-.img-container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .forum-links {
   display: block;
   color: black;
@@ -384,4 +372,17 @@ footer {
 
 .forum-links:hover {
   color: var(--color-green) !important;
+}
+
+.text-box {
+  background-color: white;
+  min-height: 10vh;
+}
+
+.text-box p {
+  font-size: 25px;
+}
+
+.text-box img {
+  max-width: 20vw;
 }

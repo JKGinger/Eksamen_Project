@@ -51,6 +51,9 @@
 
 
   </head>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v7.0&appId=263273421455796&autoLogAppEvents=1"></script>
+
 
   <?php
       define('ROOT', $_SERVER['DOCUMENT_ROOT']);
@@ -58,7 +61,7 @@
       if(isset($_GET['page'])){
           $page = $_GET['page'];
           if(preg_match('/^[a-z0-9\-]+$/', $page)){
-            if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum'){
+            if($page !== 'tutorials' && $page !== 'learning' && $page !== 'forum' && $page !== 'forum1' && $page !== 'forum2' && $page !== 'forum3'){
               $page = 'frontpage';
             }
           }else{
