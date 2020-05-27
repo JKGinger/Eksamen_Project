@@ -346,6 +346,12 @@ footer {
   font-size: 30px;
 }
 
+.banner_link {
+  border: 2px solid black;
+  height: 615px;
+  width: 960px;
+}
+
 /*Forum*/
 
 .overskift2 {
@@ -371,7 +377,7 @@ footer {
 }
 
 .forum-links:hover {
-  color: var(--color-green) !important;
+  color: var(--color-green);
 }
 
 .text-box {
@@ -385,4 +391,8 @@ footer {
 
 .text-box img {
   max-width: 20vw;
+}
+
+.facebook-c {
+  background: white !important;
 }

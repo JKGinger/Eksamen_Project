@@ -71,7 +71,7 @@
         $page = 'frontpage';
       }
   ?>
-
+<!--NAVBAR-->
   <body>
     <section id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -128,6 +128,7 @@
         include($page . '.php');
     ?>
 
+<!--JS NEWSLETTER-->
    <section class="newsletter">
         <div class="container">
             <div class="row justify-content-center">
