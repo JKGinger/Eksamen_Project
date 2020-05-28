@@ -10,6 +10,6 @@
 </div>
 
 <!--FACEBOOK COMMENTS-->
-<div class="row facebook-c">
-<div class="fb-comments col-md-8 offset-2" data-href="https://jacobdolleris.dk/index.php?page=forum2" data-numposts="2" data-width="75%" data-colorscheme="light" data-mobile="Auto-detected"></div>
+<div class="row">
+<div class="fb-comments facebook-c col-md-8 offset-2 rounded-bottom" data-href="https://jacobdolleris.dk/index.php?page=forum2" data-numposts="2" data-width="75%" data-colorscheme="light" data-mobile="Auto-detected"></div>
 </div>  

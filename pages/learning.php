@@ -25,7 +25,7 @@
 
 <!--HEADLINE2-->
 <div class="row learn">
-  <div class="col-md-4 offset-4">
+  <div class="col-md-6 offset-sm-3">
     <h2>How Minecraft could help</h2>
   </div>
 </div>

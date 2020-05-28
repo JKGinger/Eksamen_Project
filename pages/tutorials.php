@@ -69,7 +69,7 @@
     <h2>The depth of the caves</h2>
       <p>
         This tutorial is all about the cave life, getting ores and making better equipment for yourself. We will be looking for ores such as coal, iron, gold, and maybe diamonds 
-        if we can manage to find them. We will be starting off deep in a cave system instead of the safe and comforting overworld.
+        if we can manage to find them. We will be starting off deep in a cave system instead of the safe and comforting overworld. <br> If you like my videos, remember to give the videoes a thumbs up and subscribe to my Youtube channel! Thanks guys! 
       </p>
   </div>
 </div>
